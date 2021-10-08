@@ -1,6 +1,6 @@
 export default class Tooltip {
-  constructor(tooltip) {
-    this.tooltips = document.querySelectorAll(tooltip);
+  constructor(tooltips) {
+    this.tooltips = document.querySelectorAll(tooltips);
 
     // bind do objeto da classe aos callbacks
     this.onMouseLeave = this.onMouseLeave.bind(this);
@@ -39,8 +39,8 @@ export default class Tooltip {
   onMouseOver({ currentTarget }) {
     // cria a tooltip box e coloca em uma propriedade
     this.criarTooltipBox(currentTarget);
-    currentTarget('mousemove', this.onMouseMove);
-    currentTarget('mouseleave', this.onMouseLeave);
+    currentTarget.addEventListener('mousemove', this.onMouseMove);
+    currentTarget.addEventListener('mouseleave', this.onMouseLeave);
   }
 
   // adiciona os eventos de mouveover a cada tooltip

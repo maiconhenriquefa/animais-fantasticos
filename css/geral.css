@@ -45,7 +45,7 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 1rem;
   letter-spacing: .1em;
 }
 
@@ -62,7 +62,7 @@ body {
 
 .titulo {
   font-family: 'Playfair Display SC', georgia;
-  font-size: 6rem;
+  font-size: 7rem;
   line-height: 1;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -71,7 +71,8 @@ body {
 
 .animais h2 {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: 1rem;
@@ -82,12 +83,13 @@ body {
   content: '';
   display: inline-block;
   width: 40px;
-  height: 10px;
+  height: 12px;
   margin-right: 10px;
   background: #FB5;
 }
 
 .animais p {
+  font-size: 1.1rem;
   font-family: Helvetica, Arial;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -131,6 +133,7 @@ body {
 
 .faq-lista dt {
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: .5rem;
@@ -147,6 +150,7 @@ body {
 }
 
 .faq-lista dd {
+  font-size: 1.1rem;
   font-family: Helvetica, Arial;
   margin-bottom: .5rem;
   margin-left: 30px;
@@ -161,6 +165,7 @@ body {
 }
 
 .dados li {
+  font-size: 1rem;
   margin-bottom: 1rem;
   font-family: Helvetica, Arial;
 }
