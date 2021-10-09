@@ -1,3 +1,7 @@
+<p>
+ <img src="https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/animals/lion/apple-touch-icon-114x114.png" title="Moose" alt="Moose">
+</p>
+
 # Site animais fantasticos
 *Projeto final do curso de JavaScript Completo na <a href="https://www.origamid.com/">Origamid</a>*.
 
