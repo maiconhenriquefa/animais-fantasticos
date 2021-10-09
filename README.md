@@ -35,3 +35,8 @@ Com o modal é feito uma sobreposição dos dados para login.
 Ao clicar no menu temos as opções com uma lista suspensa, ou mais conhecida como dropdown.
 
 <img alt="animação-de-numeros" src="https://j.gifs.com/OgZk3B.gif" width="650" height="400" />
+
+O site foi utilizado apenas com fins de aplicação prática 
+para o curso de JavaScript na <a href="https://www.origamid.com/">Origamid</a>.
+
+Segue o link do site: https://maiconhenriquefa.github.io/animais-fantasticos/
